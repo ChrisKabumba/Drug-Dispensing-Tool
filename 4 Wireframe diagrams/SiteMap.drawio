@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-05-21T10:20:01.834Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ecZDe1d3PLfQaLxGoSAy" version="21.3.2" type="device">
+  <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
+    <mxGraphModel dx="2298" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L3G46L4K9ozWKdSvIULB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L3G46L4K9ozWKdSvIULB-1" target="L3G46L4K9ozWKdSvIULB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L3G46L4K9ozWKdSvIULB-1" target="L3G46L4K9ozWKdSvIULB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L3G46L4K9ozWKdSvIULB-1" target="L3G46L4K9ozWKdSvIULB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L3G46L4K9ozWKdSvIULB-1" target="L3G46L4K9ozWKdSvIULB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L3G46L4K9ozWKdSvIULB-1" target="L3G46L4K9ozWKdSvIULB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L3G46L4K9ozWKdSvIULB-1" target="L3G46L4K9ozWKdSvIULB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-1" value="Login page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-2" value="Physician/healthcare provider page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-3" value="Pharmacist page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-4" value="Nurse page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-5" value="Pharmaceutical page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-6" value="Administrator page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L3G46L4K9ozWKdSvIULB-12" value="Patient page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
