@@ -8,12 +8,12 @@ if($result->num_rows > 0){
     // Heading row
     echo"<table border='0' cellpadding='1' width='1000'>
         <tr>
-            <th colspan = 2>SSN</th>
-            <th colspan = 2>Name</th>
-            <th colspan = 2>Age</th>
-            <th colspan = 2>Address</th>
-            <th colspan = 2>Email</th>
-            <th colspan = 2>Phone number</th>
+            <th>SSN</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Phone number</th>
         </tr>
     </table>";
 
@@ -27,14 +27,22 @@ if($result->num_rows > 0){
 
         echo"<table border='1' cellpadding='1' width='1000'>
             <tr>
-                <td colspan = 2>$ssn</td>
-                <td colspan = 2>$name</td>
-                <td colspan = 2>$age</td>
-                <td colspan = 2>$address</td>
-                <td colspan = 2>$email</td>
-                <td colspan = 2>$phone_number</td>
+                <td>$ssn</td>
+                <td>$name</td>
+                <td>$age</td>
+                <td>$address</td>
+                <td>$email</td>
+                <td>$phone_number</td>
             </tr>
         </table>";
     }
 }
 ?>
+
+<html>
+    <body>
+        <a href="update_info.php">Update profile</a>
+        <br />
+        <a href="delete_account.php">Delete profile</a>
+    </body>
+</html>

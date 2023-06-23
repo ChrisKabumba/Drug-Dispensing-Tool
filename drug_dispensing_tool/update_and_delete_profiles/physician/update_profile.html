@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update profile</title>
+    <style>
+        #form {
+            text-align: center;
+            border: 5px solid whitesmoke;
+            background-color: antiquewhite;
+            width: 70%;
+            margin-left: 15%;
+        }
+
+        input {
+            width: 300px;
+            margin: 0px;
+        }
+
+        input[type="checkbox"] {
+            margin: 0px;
+        }
+
+        input[name="user_ssn"] {
+            width: 300px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body style="text-align: center">
+    <h1>Update profile</h1>
+    <div id="form">
+        <form method="post" action="update_profile.php">
+            User SSN: <input id="user_cred" type="text" name="user_ssn"/><br/>
+            User password: <input id="user_cred" type="password" name="user_password"/><br/>
+            <hr/>
+            SSN:<input type="textfield" name="ssn"/><input type="checkbox" name="up_ssn" checked/><br/>
+            Name: <input type="textfield" name="name"/> <input type="checkbox" name="up_name"/><br/>
+            Speciality: <input type="textfield" name="speciality"/> <input type="checkbox" name="up_speciality"/><br/>
+            Years of experience: <input type="number" name="years_of_experience"/> <input type="checkbox" name="up_years_of_experience"/><br/>
+            <input type="submit"/>
+        </form>
+    </div>
+</body>
+</html>
