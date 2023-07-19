@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    margin: 2px;
+}
+
+#user-name {
+    margin-left: 70%;
+    padding:0%;
+}
+
+nav {
+    text-align: justify;
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+ul { 
+    display: flex; 
+    list-style: none; /* removes bullets */
+    padding: .5em; 
+    margin: 0; 
+} 
+li { 
+    margin: 0 1em; 
+} 
+
+footer {
+    text-align: center;
+}
+
+address {
+    text-align: center;
+}
