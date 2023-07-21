@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img src="adminimage.jpg" alt="Description for image" width="1200" height="600" class="example">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update profile</title>
+    <style>
+
+        #form {
+            position: absolute;
+            font-family: poppins;
+            text-align: center;
+            border: 5px solid whitesmoke;
+            background-color: silver;
+            width: 47%;
+            margin-left: 25%;
+            top: 50px;
+            background-color:#fff;
+        }
+
+        input {
+            width: 300px;
+            margin: 0px;
+        }
+
+        input[type="checkbox"] {
+            margin: 0px;
+            left:20px ;
+        }
+
+        input[name="user_ssn"] {
+            width: 300px;
+            margin: 2px;}
+
+            input[name="password"] {
+            position:relative;
+            width: 300px;
+            left:0px;
+            margin: 2px;}
+
+            input[name="ID"] {
+            position:relative;
+            width: 300px;
+            left:0px;
+            margin: 2px;
+            }
+
+            input[name="name"] {
+            position:relative;
+            width: 300px;
+            left:0px;
+            
+        }
+
+        ul{
+        
+            color:"white";
+            text-align: 200px;
+        }
+
+        .userid{
+        position: relative;
+        left: -33px;
+        }
+        .userpass{
+        position: relative;
+        left: -45px;
+        }
+        .uid{
+        position: relative;
+        left: -10px;
+        }
+        .name{
+        position: relative;
+        left: -30px;
+        }
+
+        .form-control{
+            background: #444;
+            padding: 16px 20px 0;
+        }
+        .form_button{
+            background: #7d2ae8;
+            margin-top: 30px;
+            width : 100px;
+            padding: 10px 0;
+            border-radius: 10px;
+        }
+        .h1{
+            background-color: #7d2ae8;
+            
+            height: 50px;
+
+        }
+    </style>
+</head>
+<body style="text-align: center">
+    <!-- Login form-->
+    <div class = "mainform" id="form">
+        <h1 class="h1">Update profile</h1>
+        <form method="post" action="update_profile.php">
+         <div class = "userid">   <ul>User ID: <input id="user_cred" type="text"placeholder="Enter your userid" name="user_ssn"/><br/></ul></div>
+         <div class = "userpass">User password: <input id="user_cred" type="password" placeholder="Enter your password" name="password"/><br/></form></div>
+         <div class = "uid"> <ul>ID:<input type="textfield" name="ID" placeholder="Enter your id"/><!--<input type="checkbox" name="up_ID" checked/>--><br/></ul></div>
+         <div class = "name"><ul>Name: <input type="textfield" name="name" placeholder="Enter your name"/><!-- <input type="checkbox" name="up_name"/>--><br/></ul></div>
+            <input class= "form_button" type="Submit"/>
+            <!--<button class="form-button">Submit</button>-->
+        </form>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+  

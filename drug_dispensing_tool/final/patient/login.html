@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<img src="adminimage.jpg" alt="Description for image" width="1200" height="600" class="example">-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user login</title>
+    <style>
+                #form {
+            position: absolute;
+            font-family: poppins;
+            text-align: center;
+            border: 5px solid whitesmoke;
+            background-color: silver;
+            width: 30%;
+            margin-left: 35%;
+            top: 50px;
+            background-color:#fff;
+        }
+        body {
+  background-image: url('adminimage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+        *{
+            text-align: center;
+        }
+        .h2{
+            background-color: #7d2ae8;
+            height: 50px;
+            top:-500px;
+        }
+        .form_button{
+            background: #7d2ae8;
+            /*margin-top: 30px;*/
+            width : 100px;
+            padding: 10px 0;
+            border-radius: 10px;
+        }
+
+        .h1{
+            background-color: #7d2ae8;
+            height: 50px;
+        }
+        .others{
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+        <div class = "mainform" id="form">
+            <h1 class="h1">Login</h1>
+        <form method="post" action="login.php">
+            <div class = "ssn"><ul>SSN: <input type="text" name="ssn" placeholder="Enter your ssn"/> <br/></ul></div>
+                <div class = "ssn"><ul>Password: <input type="password" name="password" placeholder="Enter your password"/> <br/></ul></div>
+                <input class= "form_button" type="Submit"/></br>
+                <div class="others">
+               Not registered yet? Click <a href="registration.html">here</a> to register
+            </div>
+        </form>
+        </div>
+    </p>
+    <hr/>
+ 
+</body>
+</html>

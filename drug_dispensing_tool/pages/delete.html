@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img src="adminimage.jpg" alt="Description for image" width="1200" height="600" class="example">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete profile</title>
+    <style>
+        #form{
+            position: absolute;
+            font-family: poppins;
+            text-align: center;
+            border: 5px solid whitesmoke;
+            background-color: silver;
+            width: 30%;
+            margin-left: 35%;
+            top: 50px;
+            background-color:#fff;
+        }
+        .form_button{
+            background: #7d2ae8;
+            margin-top: 30px;
+            width : 100px;
+            padding: 10px 0;
+            border-radius: 10px;
+        }
+        .h1{
+            background-color: #7d2ae8;
+            height: 50px;
+        }
+        .pass{
+        position: relative;
+        left: -25px;
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <h1 class="h1">Delete profile</h1>
+        <form action="delete_profile.php" method="post">
+            <div class = "ssn"><ul>SSN: <input type="text" name="ssn" placeholder="Enter your ssn"/> <br/></ul></div>
+                <div class = "pass"><ul>Password: <input type="password" name="password" placeholder="Enter your password"/> <br/></ul></div>
+                <input class= "form_button" type="Submit"/>
+            </form>
+    </div>
+</body>
+</html>
